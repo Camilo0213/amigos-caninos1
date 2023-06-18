@@ -1,0 +1,253 @@
+/* Estilos generales */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: #ff4081;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ff4081;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos de la página de inicio */
+header {
+  background-color: #fce4ec;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Estilos de la página de servicios */
+.servicios {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.titulo-servicios {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: #ff69b4;
+  margin-bottom: 20px;
+}
+
+.servicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 40px;
+  padding: 20px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.servicio img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.servicio-content {
+  padding: 10px;
+}
+
+.servicio h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.servicio p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Estilos del footer */
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff4081;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff69b4;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #fce4ec;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo img {
+  max-width: 200px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #ff4081;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ff4081;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Estilos de testimonios */
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.testimonial {
+  width: 30%;
+  margin-bottom: 40px;
+  padding: 20px;
+  text-align: center;
+  background-color: transparent; /* Eliminamos el fondo gris */
+  border: none; /* Eliminamos el borde */
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial-content {
+  padding: 10px;
+}
+
+.testimonial p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.testimonial-name {
+  font-size: 14px;
+  color: #888;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #25d366;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.iframe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.iframe-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilos del botón en la barra de navegación */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ff4081;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a.button {
+  background-color: #ff4081;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: #ff69b4;
+}
+
+/* Estilos del botón en la barra de navegación */
+.nav-button {
+  margin-left: 10px;
+}
